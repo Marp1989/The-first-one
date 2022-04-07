@@ -1,2 +1,122 @@
-<h1>Hola mundo!</h1>
-<p>Bueno que..</p>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To do list 1.0</title>
+    <link rel="stylesheet" href="Claseslist.css" />
+</head>
+<body>
+    <div>
+        <h1>To do list 1.0</h1>
+    </div>
+    <div id="Filtros">
+        <table>
+            <tr>
+                <td>
+                    <input type="text" 
+                     name="Filtros"
+                     maxlength="50"
+                     title="máximo 50 caracteres"
+                    />
+                </td>
+                <td>
+                    <img src="Imagenes/Consulta.png" width="30" height="30" title="Buscar" alt="Buscar">
+                </td>
+                <td>
+                    <img src="Imagenes/Crear.png" width="30" height="30" title="Agregar tarea" alt="Agregar tarea">
+                </td>
+            </tr>
+        </table>
+    </div>
+    <div>
+        <table>
+            <tr>
+                <th>ID</th>
+                <th>Descripción</th>
+                <th>Fecha preferente</th>
+                <th>Estado</th>
+                <th>Editar / Eliminar</th>
+            </tr>
+            <tr>
+                <td>1</td>
+                <td>Comprar frascos de vidrio.</td>
+                <td>8/4/22</td>
+                <td>En proceso</td>
+                <td><img src="Imagenes/Editar.png" width="30" height="30" title="Editar" alt="Editar">
+                    <img src="Imagenes/Eliminar1.png" width="25" height="25" title=Eliminar alt="Eliminar"
+                    onmouseover="this.src='Imagenes/Eliminar2.png'" width="25" height="25" title=Eliminar alt="Eliminar;"     
+                    onmouseout="this.src='Imagenes/Eliminar1.png';">
+                </td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>Preparar centros de mesa.</td>
+                <td>10/4/22</td>
+                <td>Pendiente</td>
+                <td><img src="Imagenes/Editar.png" width="30" height="30" title="Editar" alt="Editar">
+                    <img src="Imagenes/Eliminar1.png" width="25" height="25" title=Eliminar alt="Eliminar"
+                    onmouseover="this.src='Imagenes/Eliminar2.png'" width="25" height="25" title=Eliminar alt="Eliminar;"     
+                    onmouseout="this.src='Imagenes/Eliminar1.png';">
+                </td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td>Encargar las hamburguesas.</td>
+                <td>5/4/22</td>
+                <td>En proceso</td>
+                <td><img src="Imagenes/Editar.png" width="30" height="30" title="Editar" alt="Editar">
+                    <img src="Imagenes/Eliminar1.png" width="25" height="25" title=Eliminar alt="Eliminar"
+                    onmouseover="this.src='Imagenes/Eliminar2.png'" width="25" height="25" title=Eliminar alt="Eliminar;"     
+                    onmouseout="this.src='Imagenes/Eliminar1.png';">
+                </td>
+            </tr>
+            <tr>
+                <td>4</td>
+                <td>Pagar salón para la fiesta.</td>
+                <td>7/4/22</td>
+                <td>Pendiente</td>
+                <td><img src="Imagenes/Editar.png" width="30" height="30" title="Editar" alt="Editar">
+                    <img src="Imagenes/Eliminar1.png" width="25" height="25" title=Eliminar alt="Eliminar"
+                    onmouseover="this.src='Imagenes/Eliminar2.png'" width="25" height="25" title=Eliminar alt="Eliminar;"     
+                    onmouseout="this.src='Imagenes/Eliminar1.png';">
+                </td>
+            </tr>
+            <tr>
+                <td>5</td>
+                <td>Imprimir la frase para los souvenirs.</td>
+                <td>8/4/22</td>
+                <td>Pendiente</td>
+                <td><img src="Imagenes/Editar.png" width="30" height="30" title="Editar" alt="Editar">
+                    <img src="Imagenes/Eliminar1.png" width="25" height="25" title=Eliminar alt="Eliminar"
+                    onmouseover="this.src='Imagenes/Eliminar2.png'" width="25" height="25" title=Eliminar alt="Eliminar;"     
+                    onmouseout="this.src='Imagenes/Eliminar1.png';">
+                </td>
+            </tr>
+            <tr>
+                <td>6</td>
+                <td>Confirmar que todo lo anterior esté hecho y repasar.</td>
+                <td>12/4/22</td>
+                <td>Pendiente</td>
+                <td><img src="Imagenes/Editar.png" width="30" height="30" title="Editar" alt="Editar">
+                    <img src="Imagenes/Eliminar1.png" width="25" height="25" title=Eliminar alt="Eliminar"
+                    onmouseover="this.src='Imagenes/Eliminar2.png'" width="25" height="25" title=Eliminar alt="Eliminar;"     
+                    onmouseout="this.src='Imagenes/Eliminar1.png';">
+                </td>
+            </tr>
+            <tr>
+                <td>7</td>
+                <td>Aprontar salón de fiestas.</td>
+                <td>16/4/22</td>
+                <td>Pendiente</td>
+                <td><img src="Imagenes/Editar.png" width="30" height="30" title="Editar" alt="Editar">
+                    <img src="Imagenes/Eliminar1.png" width="25" height="25" title=Eliminar alt="Eliminar"
+                    onmouseover="this.src='Imagenes/Eliminar2.png'" width="25" height="25" title=Eliminar alt="Eliminar;"     
+                    onmouseout="this.src='Imagenes/Eliminar1.png';">
+                </td>
+            </tr>
+        </table>
+    </div>
+</body>
+</html>
