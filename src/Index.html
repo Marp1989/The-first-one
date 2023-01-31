@@ -44,7 +44,7 @@
                 <td>Comprar frascos de vidrio.</td>
                 <td>8/4/22</td>
                 <td>En proceso</td>
-                <td><img src="Imagenes/Editar.png" width="30" height="30" title="Editar" alt="Editar">
+                <td><img class="botonModificar" src="Imagenes/Editar.png" width="30" height="30" title="Editar" alt="Editar">
                     <img class="botonEliminar" src="Imagenes/Eliminar1.png" width="25" height="25" title=Eliminar alt="Eliminar"
                     onmouseover="this.src='Imagenes/Eliminar2.png'" width="25" height="25" title=Eliminar alt="Eliminar;"     
                     onmouseout="this.src='Imagenes/Eliminar1.png';">
@@ -55,7 +55,7 @@
                 <td>Preparar centros de mesa.</td>
                 <td>10/4/22</td>
                 <td>Pendiente</td>
-                <td><img src="Imagenes/Editar.png" width="30" height="30" title="Editar" alt="Editar">
+                <td><img class="botonModificar" src="Imagenes/Editar.png" width="30" height="30" title="Editar" alt="Editar">
                     <img class="botonEliminar" src="Imagenes/Eliminar1.png" width="25" height="25" title=Eliminar alt="Eliminar"
                     onmouseover="this.src='Imagenes/Eliminar2.png'" width="25" height="25" title=Eliminar alt="Eliminar;"     
                     onmouseout="this.src='Imagenes/Eliminar1.png';">
@@ -66,7 +66,7 @@
                 <td>Encargar las hamburguesas.</td>
                 <td>5/4/22</td>
                 <td>En proceso</td>
-                <td><img src="Imagenes/Editar.png" width="30" height="30" title="Editar" alt="Editar">
+                <td><img class="botonModificar" src="Imagenes/Editar.png" width="30" height="30" title="Editar" alt="Editar">
                     <img class="botonEliminar" src="Imagenes/Eliminar1.png" width="25" height="25" title=Eliminar alt="Eliminar"
                     onmouseover="this.src='Imagenes/Eliminar2.png'" width="25" height="25" title=Eliminar alt="Eliminar;"     
                     onmouseout="this.src='Imagenes/Eliminar1.png';">
@@ -77,7 +77,7 @@
                 <td>Pagar salón para la fiesta.</td>
                 <td>7/4/22</td>
                 <td>Pendiente</td>
-                <td><img src="Imagenes/Editar.png" width="30" height="30" title="Editar" alt="Editar">
+                <td><img class="botonModificar" src="Imagenes/Editar.png" width="30" height="30" title="Editar" alt="Editar">
                     <img class="botonEliminar" src="Imagenes/Eliminar1.png" width="25" height="25" title=Eliminar alt="Eliminar"
                     onmouseover="this.src='Imagenes/Eliminar2.png'" width="25" height="25" title=Eliminar alt="Eliminar;"     
                     onmouseout="this.src='Imagenes/Eliminar1.png';">
@@ -88,7 +88,7 @@
                 <td>Imprimir la frase para los souvenirs.</td>
                 <td>8/4/22</td>
                 <td>Pendiente</td>
-                <td><img src="Imagenes/Editar.png" width="30" height="30" title="Editar" alt="Editar">
+                <td><img class="botonModificar" src="Imagenes/Editar.png" width="30" height="30" title="Editar" alt="Editar">
                     <img class="botonEliminar" src="Imagenes/Eliminar1.png" width="25" height="25" title=Eliminar alt="Eliminar"
                     onmouseover="this.src='Imagenes/Eliminar2.png'" width="25" height="25" title=Eliminar alt="Eliminar;"     
                     onmouseout="this.src='Imagenes/Eliminar1.png';">
@@ -99,7 +99,7 @@
                 <td>Confirmar que todo lo anterior esté hecho y repasar.</td>
                 <td>12/4/22</td>
                 <td>Pendiente</td>
-                <td><img src="Imagenes/Editar.png" width="30" height="30" title="Editar" alt="Editar">
+                <td><img class="botonModificar" src="Imagenes/Editar.png" width="30" height="30" title="Editar" alt="Editar">
                     <img class="botonEliminar" src="Imagenes/Eliminar1.png" width="25" height="25" title=Eliminar alt="Eliminar"
                     onmouseover="this.src='Imagenes/Eliminar2.png'" width="25" height="25" title=Eliminar alt="Eliminar;"     
                     onmouseout="this.src='Imagenes/Eliminar1.png';">
@@ -110,7 +110,7 @@
                 <td>Aprontar salón de fiestas.</td>
                 <td>16/4/22</td>
                 <td>Pendiente</td>
-                <td><img src="Imagenes/Editar.png" width="30" height="30" title="Editar" alt="Editar">
+                <td><img class="botonModificar" src="Imagenes/Editar.png" width="30" height="30" title="Editar" alt="Editar">
                     <img class="botonEliminar" src="Imagenes/Eliminar1.png" width="25" height="25" title=Eliminar alt="Eliminar"
                     onmouseover="this.src='Imagenes/Eliminar2.png'" width="25" height="25" title=Eliminar alt="Eliminar;"     
                     onmouseout="this.src='Imagenes/Eliminar1.png';">
@@ -122,6 +122,13 @@
         <p>Esta seguro que desea eliminar?</p>
         <button id="botonAceptar">Aceptar</button>
         <button id="botonCerrar">Cancelar</button>
+    </dialog>
+    <script src="boton.js"></script>
+
+    <dialog id="modalModificar">
+        <p>Esta seguro que desea modificar?</p>
+        <button id="botonAceptar">Aceptar</button>
+        <button id="botonCerrar">Cerrar</button>
     </dialog>
     <script src="boton.js"></script>
 </body>

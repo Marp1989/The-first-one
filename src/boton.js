@@ -15,3 +15,17 @@ botonesEliminar.forEach((botonEliminar) => {
 botonCerrar.addEventListener('click', () => {
     modalEliminar.close();
 });
+
+var botonesModificar = document.querySelectorAll('.botonModificar');
+var modalModificar = document.querySelector('#modalModificar');
+var botonCerrar = document.querySelector('#botonCerrar');
+
+botonesModificar.forEach((botonModificar) => {
+    botonModificar.addEventListener('click', () => {
+        modalModificar.showModal();
+    });
+});
+
+botonCerrar.addEventListener('click', () => {
+    modalModificar.close();
+}) ;
